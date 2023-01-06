@@ -1,0 +1,115 @@
+[
+  {
+    "model": "reservations.Reservation",
+    "pk": "c84ed4e8-379b-4be1-a588-ebbba8addb97",
+    "fields": {
+      "announcement": "964586e1-8089-44b4-bd1d-48803a5e5152",
+      "checkin_date": "2023-01-01",
+      "checkout_date": "2023-01-05",
+      "total_price": "1000.00",
+      "n_guests": 5,
+      "comment": "",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "reservations.Reservation",
+    "pk": "64ea89eb-2b45-41b5-b2fb-5b03efe23818",
+    "fields": {
+      "announcement": "964586e1-8089-44b4-bd1d-48803a5e5152",
+      "checkin_date": "2023-01-05",
+      "checkout_date": "2023-01-10",
+      "total_price": "1000.00",
+      "n_guests": 3,
+      "comment": "",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "reservations.Reservation",
+    "pk": "2ced9da4-ddfa-43df-8155-05d14d02c159",
+    "fields": {
+      "announcement": "f5c0f5d5-8e1a-4b9f-8d5d-1a8e3e3c3a4a",
+      "checkin_date": "2023-02-02",
+      "checkout_date": "2023-03-02",
+      "total_price": "2000.00",
+      "n_guests": 2,
+      "comment": "Comentário",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "reservations.Reservation",
+    "pk": "c75fd4a4-11be-4869-8e0f-e3b6422a9023",
+    "fields": {
+      "announcement": "f5c0f5d5-8e1a-4b9f-8d5d-1a8e3e3c3a4a",
+      "checkin_date": "2023-03-05",
+      "checkout_date": "2023-03-11",
+      "total_price": "1500.00",
+      "n_guests": 4,
+      "comment": "",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "reservations.Reservation",
+    "pk": "2ced9da4-ddfa-43df-8155-05d14d02c159",
+    "fields": {
+      "announcement": "7f9d4a14-7f0f-4a2d-8a4e-4d2b1c8e4f4f",
+      "checkin_date": "2023-04-01",
+      "checkout_date": "2023-04-02",
+      "total_price": "2000.00",
+      "n_guests": 3,
+      "comment": "Comentário",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "reservations.Reservation",
+    "pk": "c75fd4a4-11be-4869-8e0f-e3b6422a9023",
+    "fields": {
+      "announcement": "7f9d4a14-7f0f-4a2d-8a4e-4d2b1c8e4f4f",
+      "checkin_date": "2023-04-02",
+      "checkout_date": "2023-04-08",
+      "total_price": "1500.00",
+      "n_guests": 2,
+      "comment": "",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+
+  {
+    "model": "reservations.Reservation",
+    "pk": "2ced9da4-ddfa-43df-8155-05d14d02c159",
+    "fields": {
+      "announcement": "e8d0c7a7-0e3a-4d5a-8e9f-9d5f5e5d5c5d",
+      "checkin_date": "2023-04-01",
+      "checkout_date": "2023-04-02",
+      "total_price": "800.00",
+      "n_guests": 3,
+      "comment": "",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "reservations.Reservation",
+    "pk": "c75fd4a4-11be-4869-8e0f-e3b6422a9023",
+    "fields": {
+      "announcement": "e8d0c7a7-0e3a-4d5a-8e9f-9d5f5e5d5c5d",
+      "checkin_date": "2023-04-02",
+      "checkout_date": "2023-04-08",
+      "total_price": "750.00",
+      "n_guests": 3,
+      "comment": "",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  }
+]

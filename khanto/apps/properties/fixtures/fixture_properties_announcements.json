@@ -1,0 +1,116 @@
+[
+  {
+    "model": "properties.Property",
+    "pk": "85cfddf7-0361-415c-9428-0b44fad574d8",
+    "fields": {
+      "code": "IMV0001",
+      "max_guests": 5,
+      "n_bathrooms": 2,
+      "is_pet_friendly": true,
+      "clean_price": "200.00",
+      "activation_date": "2023-01-01",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Property",
+    "pk": "48155158-e80e-460d-9cb6-02f5b4d89b86",
+    "fields": {
+      "code": "IMV0002",
+      "max_guests": 2,
+      "n_bathrooms": 1,
+      "is_pet_friendly": true,
+      "clean_price": "50.00",
+      "activation_date": "2022-12-01",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Property",
+    "pk": "e24b4cfe-cefd-422e-af83-7004feca54b6",
+    "fields": {
+      "code": "IMV0003",
+      "max_guests": 3,
+      "n_bathrooms": 2,
+      "is_pet_friendly": false,
+      "clean_price": "99.99",
+      "activation_date": "2022-06-12",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Property",
+    "pk": "671a8cb3-85d5-4fa5-b0a4-b8ac4b4f28b7",
+    "fields": {
+      "code": "IMV0004",
+      "max_guests": 2,
+      "n_bathrooms": 1,
+      "is_pet_friendly": false,
+      "clean_price": "25.50",
+      "activation_date": "2018-09-06",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Property",
+    "pk": "90142167-1a8c-468d-83f0-5cbb1a3d0c1b",
+    "fields": {
+      "code": "IMV0005",
+      "max_guests": 4,
+      "n_bathrooms": 2,
+      "is_pet_friendly": true,
+      "clean_price": "199.00",
+      "activation_date": "2023-01-07",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Announcement",
+    "pk": "964586e1-8089-44b4-bd1d-48803a5e5152",
+    "fields": {
+      "property": "85cfddf7-0361-415c-9428-0b44fad574d8",
+      "platform": "airbnb",
+      "platform_fee": "15.00",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Announcement",
+    "pk": "f5c0f5d5-8e1a-4b9f-8d5d-1a8e3e3c3a4a",
+    "fields": {
+      "property": "48155158-e80e-460d-9cb6-02f5b4d89b86",
+      "platform": "airbnb",
+      "platform_fee": "15.00",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Announcement",
+    "pk": "7f9d4a14-7f0f-4a2d-8a4e-4d2b1c8e4f4f",
+    "fields": {
+      "property": "e24b4cfe-cefd-422e-af83-7004feca54b6",
+      "platform": "booking",
+      "platform_fee": "18.00",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "properties.Announcement",
+    "pk": "e8d0c7a7-0e3a-4d5a-8e9f-9d5f5e5d5c5d",
+    "fields": {
+      "property": "671a8cb3-85d5-4fa5-b0a4-b8ac4b4f28b7",
+      "platform": "seazone",
+      "platform_fee": "16.00",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    }
+  }
+]
