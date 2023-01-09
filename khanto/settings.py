@@ -36,7 +36,9 @@ DEBUG = config("DEBUG", default=True, cast=bool)
 ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_ALLOW_ALL = True
 CSRF_TRUSTED_ORIGINS = config(
-    "CSRF_TRUSTED_ORIGINS", default=["http://localhost"], cast=list
+    "CSRF_TRUSTED_ORIGINS",
+    default="http://localhost",
+    cast=lambda v: [s.strip() for s in v.split(",")],
 )
 
 
