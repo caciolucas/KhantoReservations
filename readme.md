@@ -73,3 +73,13 @@ Para executar o projeto, basta rodar o comando abaixo:
 $ poetry run python manage.py runserver
 
 ```
+
+## Documentação 📃
+
+A documentação dos endpoints foi feita com Swagger e está disponível na rota `/swagger`.
+
+## Próximos passos 📌
+
+- Finalizar o Frontend iniciado com Vue e Buefy
+- Deploy na instância pessoal da AWS do Lightsail
+- Dockerizar a aplicação
