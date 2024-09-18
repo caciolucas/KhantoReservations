@@ -1,51 +1,50 @@
+Here is the translated text:
+
+---
+
 # Khanto Reservations
 
-## O que é? 🤔
+## What is it? 🤔
 
-Este projeto consiste na criação de uma aplicação REST com 3 recursos principais: Propriedades, Anúncios e Reservas. Ele foi desenvolvido como parte do teste prático para vaga de desenvolvedor na Seazone.
+This project consists of creating a REST application with 3 main resources: Properties, Listings, and Reservations. It was developed as part of the practical test for the developer position at Seazone.
 
-## Ferramentas 🛠️
+## Tools 🛠️
 
-O projeto foi desenvolvido utilizando os frameworks Django e DRF para criação da aplicação, além de algumas de suas ferramentas internas para criação de funcionalidades como testes unitários e carregamento de fixtures. Já para o gerenciamento de pacotes e dependências foi utilizado o Poetry, ao invés de Pipenv ou similares, tendo em vista os últimos resultados de performance obtidos quando comparados.
+The project was developed using Django and DRF frameworks for application creation, along with some of their internal tools for functionalities like unit tests and fixture loading. For package and dependency management, Poetry was used instead of Pipenv or similar tools, considering the latest performance results obtained in comparison.
 
-## Como rodar? 🚀
+## How to Run? 🚀
 
-### Pré-requisitos 📋
+### Prerequisites 📋
 
 - Python 3.10
 - Poetry
-- Banco de Dados PostgreSQL
+- PostgreSQL Database
 
-### Instalação 🔧
+### Installation 🔧
 
-Após a instalação dos pré-requisitos, clone o repositório e instale as dependências com o Poetry:
+After installing the prerequisites, clone the repository and install the dependencies with Poetry:
 
 ```bash
-
 $ poetry install
-# Ative o virtual env (opcional)
+# Activate the virtual environment (optional)
 $ poetry shell
-# Se ativar, não é necessário o 'poetry run' nos próximos comandos
-
+# If activated, 'poetry run' is not needed for subsequent commands
 ```
 
-### Configuração 🔧
+### Configuration 🔧
 
-Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+Create a .env file in the root of the project with the following variables:
 
 ```bash
-
-SECRET_KEY= # Chave secreta do Django
-DATABASE_URL = # URL de conexão com o banco de dados (ex: postgres://user:password@host:port/database)
-
+SECRET_KEY= # Django secret key
+DATABASE_URL= # Database connection URL (e.g., postgres://user:password@host:port/database)
 ```
 
-### Migrações e fixtures 🗃️
+### Migrations and Fixtures 🗃️
 
-Para criar as tabelas no banco de dados e carregar os dados iniciais, basta rodar os comandos abaixo:
+To create the tables in the database and load the initial data, run the following commands:
 
 ```bash
-
 $ poetry run python manage.py migrate
 
 $ poetry run python manage.py loaddata khanto/apps/properties/fixtures/fixture_properties_announcements.json
@@ -53,33 +52,29 @@ $ poetry run python manage.py loaddata khanto/apps/properties/fixtures/fixture_p
 $ poetry run python manage.py loaddata khanto/apps/reservations/fixtures/fixture_reservations.json
 ```
 
-### Rodando os testes 🧪
+### Running Tests 🧪
 
-Para rodar os testes, basta rodar os comandos abaixo:
+To run the tests, execute the following commands:
 
 ```bash
-
 $ poetry run python manage.py test properties
 $ poetry run python manage.py test reservations
-
 ```
 
-### Execução 🚀
+### Running the Application 🚀
 
-Para executar o projeto, basta rodar o comando abaixo:
+To run the project, use the following command:
 
 ```bash
-
 $ poetry run python manage.py runserver
-
 ```
 
-## Documentação 📃
+## Documentation 📃
 
-A documentação dos endpoints foi feita com Swagger e está disponível na rota `/swagger`.
+The endpoint documentation was created with Swagger and is available at the `/swagger` route.
 
-## Próximos passos 📌
+## Next Steps 📌
 
-- Finalizar o Frontend iniciado com Vue e Buefy
-- Deploy na instância pessoal da AWS do Lightsail
-- Dockerizar a aplicação
+- Complete the frontend started with Vue and Buefy
+- Deploy on the personal AWS Lightsail instance
+- Dockerize the application
