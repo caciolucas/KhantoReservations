@@ -1,7 +1,3 @@
-Here is the translated text:
-
----
-
 # Khanto Reservations
 
 ## What is it? 🤔
